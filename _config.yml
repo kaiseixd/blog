@@ -1,0 +1,43 @@
+# Site settings
+title: Monochrome | A minimal, responsive Jekyll blog theme
+description: "A minimal, responsive, ready to use blog template, built with Jekyll."
+url: "http://www.dyutibarma.github.io/monochrome"
+author:
+  name: "kaiseixd"
+  email: "1050207224@qq.com"
+  url: "https://github.com/kaiseixd"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+kramdown:
+  input:  GFM
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+plugins: [jekyll-paginate]
+
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
