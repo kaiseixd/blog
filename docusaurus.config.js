@@ -1,9 +1,9 @@
 module.exports = {
   title: 'Satellite Cafe',
-  tagline: 'dd',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://kaiseixd.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
+  organizationName: 'kaiseixd',
   projectName: 'blog',
   themeConfig: {
     navbar: {
