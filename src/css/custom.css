@@ -17,8 +17,16 @@
   --ifm-code-font-size: 95%;
   
   --ifm-blockquote-padding-vertical: 6px;
-  --ifm-list-left-padding: 16px;
+  --ifm-list-left-padding: 20px;
   --ifm-h3-font-size: 22px;
+}
+
+h3 code, h4 code {
+  margin-left: -3px;
+}
+
+ul li {
+  margin: 8px 0;
 }
 
 .docusaurus-highlight-code-line {
