@@ -220,11 +220,11 @@ if Greyhound ≼ Dog ≼ Animal
 
 https://jkchao.github.io/typescript-book-chinese/tips/infer.html#leetcode-%E7%9A%84%E4%B8%80%E9%81%93-typescript-%E9%9D%A2%E8%AF%95%E9%A2%98
 
-#### `Parameters<T>`
+<!-- #### `Parameters<T>`
 
 #### `ConstructorParameters<T>`
 
-#### `InstanceType<T>`
+#### `InstanceType<T>` -->
 
 #### `ThisType<T>`
 

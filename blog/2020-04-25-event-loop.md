@@ -73,9 +73,9 @@ function microtaskCheckPoint() {
 }
 ```
 
-#### Rendering
+<!-- #### Rendering
 
-> 待补充
+> 待补充 -->
 
 #### Microtask Queue 执行时机
 
@@ -138,13 +138,13 @@ b1 b2 a1 a2 a3 c1 c2 c3
 
 在浏览器中是 4ms，在 Node 中是 1ms。
 
-#### 关于修改 dom 以及页面 render？
+<!-- #### 关于修改 dom 以及页面 render？
 
 > 待补充
 
 #### Node Event Loop
 
-> 待补充
+> 待补充 -->
 
 ### 参考
 
