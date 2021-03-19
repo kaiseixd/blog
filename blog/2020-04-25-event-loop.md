@@ -3,7 +3,7 @@ id: event-loop
 title: 从规范理解 Event Loop 的执行顺序
 ---
 
-这个 task 到底什么时候执行鸭？
+JavaScript 有一个基于事件循环的并发模型，事件循环负责执行代码、收集和处理事件以及执行队列中的子任务。
 
 <!--truncate-->
 
@@ -40,8 +40,6 @@ microtask 只有一个 queue，但是在 Node.js 中 process.nextTick 的执行�
     2. 对于异步任务，将对应 task 添加到 event loop 的 queue 中，由其他线程执行具体的异步操作（浏览器内核是多线程的）
     3. 执行栈为空后读取 event loop 中的 queue，取出并执行任务
     4. 重复以上步骤
-
-> 补充关于浏览器 setTimeout 的部分
 
 #### Processing model
 
